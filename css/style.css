@@ -943,10 +943,10 @@ input:focus {
 
 .brand-name {
   margin-right: .875rem;
-  font-family: 'Butler', Serif;
+  font-family: 'playfair Display', Serif;
   font-size: 2.875rem;
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 0;
 }
 
 .brand-text {
@@ -1627,10 +1627,10 @@ input:focus {
 
 .text-texture {
   display: inline-block;
-  background-image: url("../img/bg-title.jpg");
+  /* background-image: url("../img/bg-title.jpg"); */
   background-position: 50% 50%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .text-texture > .inside {
@@ -1648,7 +1648,7 @@ input:focus {
 }
 
 .brand .text-texture {
-  background-image: linear-gradient(to bottom, #ff7c00, #ff0000);
+  /* background-image: linear-gradient(to bottom, #ff7c00, #ff0000); */
   display: inline-block;
   vertical-align: middle;
   width: 4.75rem;
