@@ -348,7 +348,7 @@
 
           <div class="section-item text-left flash-item fs20 lh-lg2" id="prototype1">
             <div class="flash-pin-5"></div>
-            <div class="flash-item-nav item-nav-5"><a href="#prototype1">low-fi prototype</a></div>
+            <div class="flash-item-nav item-nav-5"><a href="#prototype1">prototype & test 1</a></div>
 
             <div class="container">
               <!-- Title -->
@@ -370,8 +370,6 @@
           </div>
 
           <div class="section-item text-left flash-item fs20 lh-lg2" id="test1">
-            <div class="flash-pin-6"></div>
-            <div class="flash-item-nav item-nav-6"><a href="#test1">test 1</a></div>
 
             <div class="container">
               <!-- Title -->
@@ -401,8 +399,8 @@
           </div>
 
           <div class="section-item text-left flash-item fs20 lh-lg2" id="prototype2">
-            <div class="flash-pin-7"></div>
-            <div class="flash-item-nav item-nav-7"><a href="#prototype2">hi-fi prototype</a></div>
+            <div class="flash-pin-6"></div>
+            <div class="flash-item-nav item-nav-6"><a href="#prototype2">prototype & test 2</a></div>
 
             <div class="container">
               <!-- Title -->
@@ -429,8 +427,6 @@
           </div>
 
           <div class="section-item text-left flash-item fs20 lh-lg2" id="test2">
-            <div class="flash-pin-8"></div>
-            <div class="flash-item-nav item-nav-8"><a href="#test2">test 2</a></div>
 
             <div class="container">
               <!-- Title -->
@@ -574,32 +570,24 @@
               .setTween('.item-nav-1', {top: '130px', ease: Linear.easeNone})
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-2', triggerHook: 1, duration: $(window).height() - 330 - 180})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-2', triggerHook: 1, duration: $(window).height() - 280 - 180})
               .setTween('.item-nav-2', {top: '180px', ease: Linear.easeNone})
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-3', triggerHook: 1, duration: $(window).height() - 280 - 230})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-3', triggerHook: 1, duration: $(window).height() - 230 - 230})
               .setTween('.item-nav-3', {top: '230px', ease: Linear.easeNone})
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-4', triggerHook: 1, duration: $(window).height() - 230 - 280})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-4', triggerHook: 1, duration: $(window).height() - 180 - 280})
               .setTween('.item-nav-4', {top: '280px', ease: Linear.easeNone})
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-5', triggerHook: 1, duration: $(window).height() - 180 - 330})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-5', triggerHook: 1, duration: $(window).height() - 130 - 330})
               .setTween('.item-nav-5', {top: '330px', ease: Linear.easeNone})
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-6', triggerHook: 1, duration: $(window).height() - 130 - 380})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-6', triggerHook: 1, duration: $(window).height() - 80 - 380})
               .setTween('.item-nav-6', {top: '380px', ease: Linear.easeNone})
-              .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-7', triggerHook: 1, duration: $(window).height() - 80 - 430})
-              .setTween('.item-nav-7', {top: '430px', ease: Linear.easeNone})
-              .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-8', triggerHook: 1, duration: $(window).height() - 30 - 480})
-              .setTween('.item-nav-8', {top: '480px', ease: Linear.easeNone})
               .addTo(controller);
 
         new ScrollMagic.Scene({triggerElement: '.home-flash', triggerHook: 1, duration: $('.flash-pin-2').offset().top})
@@ -622,15 +610,7 @@
               .setClassToggle('.item-nav-5', 'active')
               .addTo(controller);
 
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-6', triggerHook: 1, duration: $('.flash-pin-7').offset().top - $('.flash-pin-6').offset().top})
-              .setClassToggle('.item-nav-6', 'active')
-              .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-7', triggerHook: 1, duration: $('.flash-pin-8').offset().top - $('.flash-pin-7').offset().top})
-              .setClassToggle('.item-nav-7', 'active')
-              .addTo(controller);
-
-        new ScrollMagic.Scene({triggerElement: '.flash-pin-8', triggerHook: 1, duration: $('.flash-pin-8').closest('.flash-item').outerHeight() + $('.footer').outerHeight()})
+        new ScrollMagic.Scene({triggerElement: '.flash-pin-6', triggerHook: 1, duration: $('.flash-pin-6').closest('.flash-item').outerHeight() + $('.footer').outerHeight()})
               .setClassToggle('.item-nav-8', 'active')
               .addTo(controller);
 

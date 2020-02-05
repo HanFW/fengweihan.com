@@ -944,7 +944,7 @@ input:focus {
 .brand-name {
   margin-right: .875rem;
   font-family: 'playfair Display', Serif;
-  font-size: 2.875rem;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 0;
 }
@@ -5201,35 +5201,27 @@ a.minimal-item:hover {
 }
 
 .item-nav-1 {
-  top: calc(100% - 380px);
-}
-
-.item-nav-2 {
   top: calc(100% - 330px);
 }
 
-.item-nav-3 {
+.item-nav-2 {
   top: calc(100% - 280px);
 }
 
-.item-nav-4 {
+.item-nav-3 {
   top: calc(100% - 230px);
 }
 
-.item-nav-5 {
+.item-nav-4 {
   top: calc(100% - 180px);
 }
 
-.item-nav-6 {
+.item-nav-5 {
   top: calc(100% - 130px);
 }
 
-.item-nav-7 {
+.item-nav-6 {
   top: calc(100% - 80px);
-}
-
-.item-nav-8 {
-  top: calc(100% - 30px);
 }
 
 .flash-item {
@@ -5264,18 +5256,6 @@ a.minimal-item:hover {
   position: absolute;
   left: 0;
   top: 78px;
-}
-
-.flash-pin-7 {
-  position: absolute;
-  left: 0;
-  top: 28px;
-}
-
-.flash-pin-8 {
-  position: absolute;
-  left: 0;
-  top: 0px;
 }
 
 @media (max-width: 575px) {
@@ -5337,7 +5317,7 @@ a.minimal-item:hover {
 
 .home-flash-dark,
 #safetrip.home-flash.dark-horizontal {
-  background: #A5D6A7;
+  background: #C8E6C9;
   color: #222222;
 }
 
