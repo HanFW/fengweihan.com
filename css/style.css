@@ -3604,13 +3604,15 @@ a.btn-play i {
 .dark-horizontal .copyright-fixed,
 .dark-horizontal .social-rounded-fixed a,
 .dark-horizontal .navbar-nav > ul > li > a {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #222222;
 }
 
 .dark-horizontal .stick,
 .dark-horizontal #pp-nav span,
 .dark-horizontal .pp-slidesNav span {
-  background: #ffffff;
+  /* background: #ffffff; */
+  color: #222222;
 }
 
 .dark-horizontal .horizontal-nav li.active,
@@ -5133,9 +5135,9 @@ a.minimal-item:hover {
   left: 15px;
   z-index: 500;
   padding-left: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .flash-item-nav {
@@ -5177,6 +5179,7 @@ a.minimal-item:hover {
 .flash-item-nav.active a {
   color: #000000 !important;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .flash-item-nav:before {
@@ -5185,19 +5188,22 @@ a.minimal-item:hover {
 
 .home-flash-dark .flash-item-nav a,
 .home-flash.dark-horizontal .flash-item-nav a {
-  color: #626262 !important;
+  /* color: #626262 !important; */
+  color: #999999 !important;
 }
 
 .home-flash-dark .flash-item-nav a:hover,
 .home-flash.dark-horizontal .flash-item-nav a:hover,
 .home-flash-dark .flash-item-nav.active a,
 .home-flash.dark-horizontal .flash-item-nav.active a {
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
+  color: #000000 !important;
 }
 
 .home-flash-dark .flash-item-nav:before,
 .home-flash.dark-horizontal .flash-item-nav:before {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #000000;
 }
 
 .item-nav-1 {
@@ -5342,7 +5348,8 @@ a.minimal-item:hover {
 .home-flash.dark-horizontal h3,
 .home-flash-dark .h3,
 .home-flash.dark-horizontal .h3 {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #222222;
 }
 
 .home-flash .section-item-title,
