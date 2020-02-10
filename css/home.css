@@ -62,6 +62,10 @@
   background-color: #C8E6C9;
 }
 
+#producecard .big-article-image-wrapper{
+  background-color: rgba(183, 247, 120, 0.4);
+}
+
 .big-article-image-wrapper img{
   display: block;
   max-height: 320px;
