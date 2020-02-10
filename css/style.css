@@ -5328,7 +5328,8 @@ a.minimal-item:hover {
 
 .home-flash-dark,
 #safetrip.home-flash.dark-horizontal {
-  background: #C8E6C9;
+  /* background: #C8E6C9; */
+  background-color: rgba(255, 209, 128, 0.5);
   color: #222222;
 }
 
