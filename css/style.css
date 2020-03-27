@@ -5333,6 +5333,13 @@ a.minimal-item:hover {
   color: #222222;
 }
 
+.home-flash-dark,
+#produce.home-flash.dark-horizontal {
+  /* background: #C8E6C9; */
+  background-color: rgba(183, 247, 120, 0.3);
+  color: #222222;
+}
+
 .home-flash-dark hr,
 .home-flash.dark-horizontal hr {
   border-top-color: rgba(255,255,255,.05);
