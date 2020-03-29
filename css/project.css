@@ -1,0 +1,290 @@
+/*-------------------------------------------------------------------------------
+  Global
+-------------------------------------------------------------------------------*/
+
+.project-wrapper {
+  /* max-width: 1536px; */
+  margin-top: 100px;
+}
+
+.project-container {
+  max-width: 680px;
+}
+
+.section {
+  margin-top: 100px;
+}
+
+.section-small {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+/* Introduction */
+.project-title {
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.project-subtitle {
+  font-size: 20px;
+  margin-bottom: 56px;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+}
+
+.project-info {
+  padding-top: 40px;
+  /* padding-bottom: 1.125rem; */
+  /* border-bottom: #eaeaea 1px solid; */
+}
+
+.project-info-item {
+  margin-bottom: 0px;
+}
+
+.project-info-title {
+  margin-bottom: 1.25rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.project-info-descr {
+  line-height: 1.625;
+  color: #222;
+  font-size: 16px;
+}
+
+/* Others */
+
+.project-stage-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+}
+
+.project-step-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h4.project-step-title {
+  margin-bottom: 28px;
+}
+
+.project-point {
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+}
+
+h5.project-point {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.project-summary {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+}
+
+.project-summary-highlight {
+  font-weight: 800;
+}
+
+.project-list {
+  list-style: square;
+  line-height: 2;
+}
+
+.project-embed {
+  width: 100%;
+  height: 40vh;
+}
+
+@media (min-width: 768px) {
+  .project-list {
+    padding-left: 0px;
+  }
+
+  .project-embed {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+
+/*-------------------------------------------------------------------------------
+  9. Home Flash
+-------------------------------------------------------------------------------*/
+
+.home-flash-section h2 {
+  margin-bottom: 2.125rem;
+}
+
+
+
+.flash-item {
+  position: relative;
+}
+
+.home-flash-dark .home-flash-section .container,
+.home-flash.dark-horizontal .home-flash-section .container,
+.home-flash-dark .home-flash-section .container-fluid,
+.home-flash.dark-horizontal .home-flash-section .container-fluid,
+.home-flash .footer {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease-in-out;
+}
+
+.home-flash-section {
+  padding-bottom: 0;
+}
+
+.home-flash-section-dark {
+  padding-top: 21.01851852vmin;
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) and (max-width: 1599px) {
+  .home-flash-section {
+    padding-left: 10rem;
+  }
+}
+
+.home-flash-dark .home-flash-section-dark .container,
+.home-flash.dark-horizontal .home-flash-section-dark .container,
+.home-flash-dark .home-flash-section-dark .container-fluid,
+.home-flash.dark-horizontal .home-flash-section-dark .container-fluid,
+.home-flash.dark-horizontal .footer {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.home-flash {
+  background: #ffffff;
+  transition: background .3s ease-in-out;
+}
+
+/* .home-flash-dark,
+.home-flash.dark-horizontal {
+  background: #2c1a6a;
+  color: #9999cc;
+} */
+
+.home-flash-dark,
+#safetrip.home-flash.dark-horizontal {
+  /* background: #C8E6C9; */
+  background-color: rgba(255, 209, 128, 0.5);
+  color: #222222;
+}
+
+.home-flash-dark,
+#produce.home-flash.dark-horizontal {
+  /* background: #C8E6C9; */
+  background-color: rgba(183, 247, 120, 0.3);
+  color: #222222;
+}
+
+.home-flash-dark hr,
+.home-flash.dark-horizontal hr {
+  border-top-color: rgba(255,255,255,.05);
+}
+
+.home-flash-dark a,
+.dark-horizontal a,
+.home-flash-dark strong,
+.home-flash.dark-horizontal strong,
+.home-flash-dark h1,
+.home-flash.dark-horizontal h1,
+.home-flash-dark .h1,
+.home-flash.dark-horizontal .h1,
+.home-flash-dark h2,
+.home-flash.dark-horizontal h2,
+.home-flash-dark .h2,
+.home-flash.dark-horizontal .h2,
+.home-flash-dark h3,
+.home-flash.dark-horizontal h3,
+.home-flash-dark .h3,
+.home-flash.dark-horizontal .h3 {
+  /* color: #ffffff; */
+  color: #222222;
+}
+
+.home-flash .section-item-title,
+.section-item-title-xs,
+.section-item-title-xs-narrow {
+  font-size: 1rem;
+  color: #999999;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  font-weight: 400;
+}
+
+.section-item-title-xs-narrow {
+  letter-spacing: .1em;
+  font-weight: normal;
+}
+
+.section-item-title-xs {
+  margin-bottom: 1.25rem;
+}
+
+.home-flash-dark .section-item-title,
+.home-flash-dark .section-item-title a {
+  color: #666699;
+  text-decoration: none;
+}
+
+.h1-flash {
+  margin-bottom: 7.40740741vmin;
+  background: #222222;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 10vmin; */
+  font-size: 56px;
+  line-height: 1;
+}
+
+.about-flash {
+  position: relative;
+}
+
+.about-flash .vertical-text-right {
+  right: auto;
+  left: 0;
+  margin-left: 35px;
+  margin-top: 1.66666667vmin;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+
+@keyframes pulsation {
+  0% {
+    opacity: .5;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+  }
+  15% {
+    opacity: 0;
+    -webkit-transform: scale(1.75);
+        -ms-transform: scale(1.75);
+         -o-transform: scale(1.75);
+            transform: scale(1.75);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.75);
+        -ms-transform: scale(1.75);
+         -o-transform: scale(1.75);
+            transform: scale(1.75);
+  }
+}
