@@ -710,7 +710,7 @@ html > body .mb130 {
 }
 
 .nav-toggle-btn:hover {
-  color: #b11d11;
+  color: #8CBC7B;
 }
 
 .nav-toggle-btn:focus {
@@ -749,7 +749,7 @@ html > body .mb130 {
 }
 
 .nav-toggle-btn:hover .stick {
-  background-color: #b11d11;
+  background-color: #8CBC7B;
 }
 
 .body-menu-opened .nav-toggle-btn {
@@ -1021,7 +1021,7 @@ html > body .mb130 {
   background: #ffffff;
   max-width: 100%;
   width: 100%;
-  padding: 3.75rem 4.375rem 3.25rem;
+  padding: 3.75rem 3.375rem 3.25rem;
   display: flex;
   flex-direction: column;
   transition: transform .4s ease-in-out;
@@ -1036,7 +1036,7 @@ html > body .mb130 {
 
 @media (min-width: 576px) {
   .menu {
-    width: 34rem;
+    width: 24rem;
   }
 }
 
@@ -1163,7 +1163,7 @@ html > body .mb130 {
   position: absolute;
   width: 0%;
   transition: width cubic-bezier(0.82, 0, 0.21, 1) 0.3s;
-  color: #b11d11;
+  color: #8CBC7B;
   z-index: 2;
   overflow: hidden;
   white-space: nowrap;

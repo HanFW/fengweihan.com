@@ -1,3 +1,8 @@
+.section {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
 .site-content {
   display: block;
   width: 100%;
