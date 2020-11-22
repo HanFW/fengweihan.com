@@ -12,8 +12,10 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #222222;
+  /* color: #393D38; */
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
 }
 
 html > body .underline {
@@ -49,7 +51,8 @@ html > body .underline:hover {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #2e2e2e;
+  /* background: #2e2e2e; */
+  background: #393D38;
 }
 
 .container-fluid-md {
@@ -118,6 +121,12 @@ h4,
 .h4 {
   margin-bottom: 1rem;
   font-weight: 400;
+}
+
+.h2-flash {
+  margin-bottom: 6rem;
+  font-size: 3rem;
+  line-height: 1.25;
 }
 
 .text-bold {
