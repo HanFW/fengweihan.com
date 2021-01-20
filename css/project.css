@@ -1,6 +1,15 @@
 /*-------------------------------------------------------------------------------
   Global
 -------------------------------------------------------------------------------*/
+img {
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+}
+
+img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
 
 .project-wrapper {
   /* max-width: 1536px; */
@@ -96,8 +105,8 @@ h5.project-point {
 }
 
 .project-list {
-  list-style: square;
-  line-height: 2;
+  list-style: circle;
+  line-height: 1.6;
 }
 
 .project-embed {
