@@ -68,6 +68,11 @@
   background-color: rgba(255, 209, 128, 0.5);
 }
 
+#mindcurrentcard .big-article-image-wrapper{
+  /* background-color: rgba(183, 247, 120, 0.3); */
+  background-color: rgba(65,168,186, 0.9);
+}
+
 #producecard .big-article-image-wrapper{
   /* background-color: rgba(183, 247, 120, 0.3); */
   background-color: rgba(160,200,81, 0.6);
@@ -88,7 +93,7 @@
 
 .big-article-image-wrapper img{
   display: block;
-  max-height: 320px;
+  max-height: 400px;
   margin: auto;
 }
 
