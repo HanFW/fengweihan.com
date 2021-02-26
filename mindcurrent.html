@@ -27,6 +27,7 @@
     <link href="css/ionicons.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="cdn/font-awesome/css/all.min.css" rel="stylesheet"/>
 
     <!-- Main CSS -->
     <link href="css/common.css" rel="stylesheet">
@@ -101,7 +102,7 @@
                 <p class="project-subtitle">Designed AI visualization of personal stress pattern.</p>
               </div>
             </div>
-            <img class="img-fluid img-shadow" src="img/mindcurrent/mindcurrent.png">
+            <img class="img-fluid img-shadow" src="img/mindcurrent/mindcurrent.png" data-lightbox="image-1" data-title="My caption">
 
             <div class="row justify-content-md-center mt40">
               <div class="col-md-7 project-container">
@@ -434,6 +435,15 @@
     <script src="js/jquery.viewport.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/ezoom.js"></script>
+    <script>
+  		$(document).ready(function(){
+  			ezoom.onInit($('img'), {
+  				hideControlBtn: true
+  			});
+  		});
+    </script>
+
 
   </body>
 </html>

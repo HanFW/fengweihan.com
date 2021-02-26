@@ -1,16 +1,6 @@
 /*-------------------------------------------------------------------------------
   Global
 -------------------------------------------------------------------------------*/
-img {
-    transition: -webkit-transform 0.25s ease;
-    transition: transform 0.25s ease;
-}
-
-img:active {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-}
-
 .project-wrapper {
   /* max-width: 1536px; */
   margin-top: 100px;
