@@ -21,8 +21,19 @@ body {
 mark {
   padding: 0.1em;
   background-color: #fff;
-  color: #47a1b1;
   font-weight: 600;
+}
+
+#mindcurrent mark {
+  color: #47a1b1;
+}
+
+#parisawang mark {
+  color: #C8AFA3;
+}
+
+#frontrock mark {
+  color: #6271F1;
 }
 
 html > body .underline {
